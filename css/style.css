@@ -5,30 +5,40 @@
 }
 #main-container {
     width: 100%;
-    display: block;
     padding: 15px;
+    
 
 }
 
 h4{
-    display : block;
-    float: right;
     text-align: center;
     width: 120px;
     padding: 5px;
     border:solid black 1px;
+    box-sizing: border-box;
 }
 
 .item-1 {
     background-color: tomato;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    box-sizing: border-box;
+    
 }
 
 .item-2 {
     background-color: greenyellow;
+    position: absolute;
+    top:0px;
+    right: 0px;
 }
 
 .item-3 {
     background-color: aquamarine;
+    position: absolute;
+    top:0px;
+    right: 0px;
 }
 
 
@@ -41,13 +51,14 @@ padding: 20px;
     background-color: gray;
     margin: 10px;
     border: solid black 1px;
+    position: relative;
+    padding-top: 15px;
     
 }
 
 .content {
     padding: 15px;
-    display: block;
-    margin-top: 20px;
+
 }
 
 
